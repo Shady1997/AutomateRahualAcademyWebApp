@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-14T16:12:23 EET" name="Suite" finished-at="2022-03-14T16:13:00 EET" duration-ms="36695">
+    <groups>
+      <group name="smoke">
+        <method signature="Start.checkDropdownSection()[pri:4, instance:main.Start@5b1ebf56]" name="checkDropdownSection" class="main.Start"/>
+        <method signature="Start.checkRadioButtons()[pri:2, instance:main.Start@5b1ebf56]" name="checkRadioButtons" class="main.Start"/>
+        <method signature="Start.checkSuggestionClassNameSection()[pri:3, instance:main.Start@5b1ebf56]" name="checkSuggestionClassNameSection" class="main.Start"/>
+        <method signature="Start.startApplication()[pri:1, instance:main.Start@5b1ebf56]" name="startApplication" class="main.Start"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-03-14T16:12:23 EET" name="RahualAcademyWebPage" finished-at="2022-03-14T16:13:00 EET" duration-ms="36695">
+      <class name="main.Start">
+        <test-method is-config="true" signature="prepareClassProperties(java.lang.String)[pri:0, instance:main.Start@5b1ebf56]" started-at="2022-03-14T16:12:23 EET" name="prepareClassProperties" finished-at="2022-03-14T16:12:31 EET" duration-ms="7497" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareClassProperties -->
+        <test-method signature="startApplication()[pri:1, instance:main.Start@5b1ebf56]" started-at="2022-03-14T16:12:31 EET" name="startApplication" description="Start Application using selected driver" finished-at="2022-03-14T16:12:54 EET" duration-ms="23314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method signature="checkRadioButtons()[pri:2, instance:main.Start@5b1ebf56]" started-at="2022-03-14T16:12:54 EET" name="checkRadioButtons" description="Check Radio buttons " finished-at="2022-03-14T16:12:55 EET" duration-ms="729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkRadioButtons -->
+        <test-method signature="checkSuggestionClassNameSection()[pri:3, instance:main.Start@5b1ebf56]" started-at="2022-03-14T16:12:55 EET" name="checkSuggestionClassNameSection" description="Check section suggestion class name " finished-at="2022-03-14T16:12:58 EET" duration-ms="2608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuggestionClassNameSection -->
+        <test-method signature="checkDropdownSection()[pri:4, instance:main.Start@5b1ebf56]" started-at="2022-03-14T16:12:58 EET" name="checkDropdownSection" description="Check section DropDown " finished-at="2022-03-14T16:12:59 EET" duration-ms="864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDropdownSection -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:main.Start@5b1ebf56]" started-at="2022-03-14T16:12:59 EET" name="closeApplication" finished-at="2022-03-14T16:13:00 EET" duration-ms="1416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- main.Start -->
+    </test> <!-- RahualAcademyWebPage -->
+  </suite> <!-- Suite -->
+</testng-results>
